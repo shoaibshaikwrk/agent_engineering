@@ -1,0 +1,37 @@
+# WidgetWare Ideal Customer Profile (ICP) Configuration
+# Defines account fit criteria, buying signals, and required account fields.
+
+minimum_employee_count: 5000
+maximum_employee_count: null
+
+preferred_industries:
+  - manufacturing
+  - industrial_automation
+  - energy_utilities  # Homework addition: preferred industry
+
+excluded_industries:
+  - financial_services
+  - healthcare
+  - retail
+
+preferred_regions:
+  - united_states
+  - europe
+  - india
+
+buying_signals:
+  - new_ai_leadership
+  - digital_transformation_program
+  - genai_hiring
+  - plant_modernization_announcement
+
+required_account_fields:
+  - name
+  - industry
+  - employee_count
+  - region
+
+requires_human_approval:
+  - external_outreach
+  - crm_write
+  - pricing_commitments

@@ -1,0 +1,18 @@
+# Insufficient Evidence Scenario Fixture
+
+account:
+  id: acc_103
+  name: Stealth Automation Project
+  industry: unknown
+  employee_count: null
+  region: unknown
+  notes: "Private research lab mentioned in blog post."
+
+objective: "Determine qualification state for Stealth Automation Project."
+
+evidence: []
+
+state:
+  workflow_stage: "initial_assessment"
+  previous_steps:
+    - "account_received"

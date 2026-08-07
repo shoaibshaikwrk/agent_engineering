@@ -1,0 +1,33 @@
+# Conflicting Evidence Scenario Fixture (Homework item 4)
+
+account:
+  id: acc_105
+  name: Ambiguous Dynamics Corp
+  industry: manufacturing
+  employee_count: 6500
+  region: united_states
+  notes: "Recent news reports give conflicting headcount and operational focus figures."
+
+objective: "Evaluate account fit when evidence contains conflicting claims."
+
+evidence:
+  - claim: "Ambiguous Dynamics operates 12 manufacturing facilities with 8,500 employees."
+    classification: conflict
+    source:
+      name: "Annual Industrial Report 2025"
+      url: "https://example.com/reports/annual-2025"
+      retrieved_at: "2026-08-07"
+    excerpt: "Ambiguous Dynamics continues expanding its 12 manufacturing facilities across the Midwest, employing 8,500 staff."
+
+  - claim: "Ambiguous Dynamics sold its manufacturing facilities and downsized to 1,200 software consultants."
+    classification: conflict
+    source:
+      name: "Financial Tech News"
+      url: "https://example.com/news/fin-tech-divestment"
+      retrieved_at: "2026-08-07"
+    excerpt: "In Q1 2026, Ambiguous Dynamics divested all manufacturing operations to become an IT consulting agency with 1,200 staff."
+
+state:
+  workflow_stage: "conflict_resolution"
+  previous_steps:
+    - "account_received"

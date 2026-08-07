@@ -1,0 +1,60 @@
+# WidgetWare Product Configuration
+# Stable business data representing WidgetWare offerings and claims.
+
+company:
+  name: WidgetWare
+  description: >
+    WidgetWare sells software and services that help manufacturing and
+    industrial-automation companies modernize plant operations and adopt
+    AI-enabled automation.
+
+products:
+  - product_id: plant_operations_platform
+    name: Plant Operations Platform
+    summary: >
+      A unified software platform for modernizing legacy manufacturing plant floor
+      operations, aggregating sensor telemetry, and streamlining paperless workflows.
+    target_buyers:
+      - VP of Manufacturing
+      - Plant Operations Manager
+      - Chief Operations Officer
+    approved_claims:
+      - "Integrates with common legacy plant-floor control systems."
+      - "Provides a phased modernization path rather than a full rip-and-replace."
+      - "Used by manufacturing customers to reduce manual, paper-based approval steps."
+    unapproved_claims:
+      - "Guarantees a specific percentage cost reduction."
+      - "Replaces a customer's existing safety-certified control systems."
+
+  - product_id: industrial_ai_accelerator
+    name: Industrial AI Accelerator
+    summary: >
+      A suite of pre-packaged AI and predictive analytics modules for equipment maintenance,
+      quality control anomaly detection, and operational optimization.
+    target_buyers:
+      - Chief Technology Officer
+      - VP of Industrial Automation
+      - Head of AI & Analytics
+    approved_claims:
+      - "Enables rapid prototyping of computer-vision quality inspection workflows."
+      - "Supports edge deployment on existing industrial gateway hardware."
+      - "Provides pre-trained models for common industrial equipment telemetry."
+    unapproved_claims:
+      - "Eliminates 100% of equipment downtime."
+      - "Operates without human supervisor oversight."
+
+  - product_id: plant_safety_ai
+    name: Plant Safety AI
+    summary: >
+      An automated safety monitor that uses multi-modal telemetry and vision models to alert
+      operators to safety compliance risks and hazardous conditions.
+    target_buyers:
+      - Head of Environmental Health and Safety (EHS)
+      - Plant Safety Director
+      - VP of Operations
+    approved_claims:
+      - "Monitors personal protective equipment (PPE) compliance using existing camera streams."
+      - "Triggers real-time operator alerts when zone safety boundaries are breached."
+    unapproved_claims:
+      - "Replaces OSHA or statutory safety certification requirements."
+      - "Guarantees zero workplace accidents."

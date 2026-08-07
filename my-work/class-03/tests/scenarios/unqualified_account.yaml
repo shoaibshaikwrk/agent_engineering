@@ -1,0 +1,25 @@
+# Unqualified Account Scenario Fixture
+
+account:
+  id: acc_102
+  name: Swift Retail Logistics LLC
+  industry: retail
+  employee_count: 350
+  region: united_states
+  notes: "Operates online retail fulfillment center."
+
+objective: "Evaluate account fit against WidgetWare ICP."
+
+evidence:
+  - claim: "Swift Retail Logistics is a regional e-commerce retail supplier."
+    classification: verified_fact
+    source:
+      name: "Company About Page"
+      url: "https://example.com/swift-retail/about"
+      retrieved_at: "2026-08-07"
+    excerpt: "Swift Retail Logistics provides third-party fulfillment services for online retail stores."
+
+state:
+  workflow_stage: "initial_assessment"
+  previous_steps:
+    - "account_received"

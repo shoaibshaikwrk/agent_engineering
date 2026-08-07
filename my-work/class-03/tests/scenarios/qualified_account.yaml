@@ -1,0 +1,33 @@
+# Qualified Account Scenario Fixture
+
+account:
+  id: acc_101
+  name: Apex Manufacturing Corp
+  industry: manufacturing
+  employee_count: 12500
+  region: united_states
+  notes: "Looking to modernize plant floor operations across 4 facility locations."
+
+objective: "Assess ICP fit and pre-qualify Apex Manufacturing Corp for SDR outreach."
+
+evidence:
+  - claim: "Apex Manufacturing launched a multi-year digital transformation initiative."
+    classification: verified_fact
+    source:
+      name: "Apex Manufacturing Press Release"
+      url: "https://example.com/apex-press-release"
+      retrieved_at: "2026-08-07"
+    excerpt: "Apex Manufacturing announced a $50M initiative to upgrade plant automation systems."
+
+  - claim: "Apex appointed a new VP of Industrial AI."
+    classification: verified_fact
+    source:
+      name: "Industry News Portal"
+      url: "https://example.com/industry-news/apex-vp"
+      retrieved_at: "2026-08-07"
+    excerpt: "Apex Manufacturing appointed Jane Doe as VP of Industrial AI to oversee smart manufacturing."
+
+state:
+  workflow_stage: "initial_assessment"
+  previous_steps:
+    - "account_received"
